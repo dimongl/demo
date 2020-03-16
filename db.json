@@ -4,11 +4,71 @@
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 },
-    { "id": 3, "body": "some comment", "postId": 1 }
-  ],
+  "groups": 	  [
+		{
+			name: 'Типы документов',
+			id: 1,
+			type: 'group',
+			children: [
+				{
+					name: 'ГПХ',
+					id: 2,
+					type: 'group'
+				},			
+				{
+					name: 'Журнал регистрации свидетельств',
+					id: 3,
+					type: 'group',
+					children: [
+						{
+							name: 'Свидетельство о поверке',
+							id: 4,
+							type: 'item',
+						}					
+					]
+				},
+				{
+					name: 'Журнал регистрации согласований',
+					id: 5,
+					type: 'group',
+					children: [
+						{
+							name: 'Согласование проектов и работ',
+							id: 6,
+							type: 'item',
+						}					
+					]
+				},	
+				{
+					name: 'Инвентаризация',
+					id: 7,
+					type: 'group',
+					children: [
+						{
+							name: 'ИОСУ',
+							id: 8,
+							type: 'item',
+						},
+						{
+							name: 'Инвентаризационная опись площадки',
+							id: 9,
+							type: 'item',
+						},
+						{
+							name: 'Инвентаризационная опись смотрового устройства',
+							id: 10,
+							type: 'item',
+						}						
+					]
+				}
+			]				
+		},
+		{
+			name: 'Группы документов',
+			id: 11,
+			type: 'group'
+		}
+	  ],
   "profile": {
           "status" : "OK",
           "displayName" : "Козлов Дмитрий Александрович",
