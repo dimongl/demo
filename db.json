@@ -4,69 +4,69 @@
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
   ],
-  "groups": 	  [
+  "groups": 	 	  [
 		{
-			name: 'Типы документов',
+			name: "Типы документов",
 			id: 1,
-			type: 'group',
+			type: "group",
 			children: [
 				{
-					name: 'ГПХ',
+					name: "ГПХ",
 					id: 2,
-					type: 'group'
+					type: "group"
 				},			
 				{
-					name: 'Журнал регистрации свидетельств',
+					name: "Журнал регистрации свидетельств",
 					id: 3,
-					type: 'group',
+					type: "group",
 					children: [
 						{
-							name: 'Свидетельство о поверке',
+							name: "Свидетельство о поверке",
 							id: 4,
-							type: 'item',
+							type: "item",
 						}					
 					]
 				},
 				{
-					name: 'Журнал регистрации согласований',
+					name: "Журнал регистрации согласований",
 					id: 5,
-					type: 'group',
+					type: "group",
 					children: [
 						{
-							name: 'Согласование проектов и работ',
+							name: "Согласование проектов и работ",
 							id: 6,
-							type: 'item',
+							type: "item",
 						}					
 					]
 				},	
 				{
-					name: 'Инвентаризация',
+					name: "Инвентаризация",
 					id: 7,
-					type: 'group',
+					type: "group",
 					children: [
 						{
-							name: 'ИОСУ',
+							name: "ИОСУ",
 							id: 8,
-							type: 'item',
+							type: "item",
 						},
 						{
-							name: 'Инвентаризационная опись площадки',
+							name: "Инвентаризационная опись площадки",
 							id: 9,
-							type: 'item',
+							type: "item",
 						},
 						{
-							name: 'Инвентаризационная опись смотрового устройства',
+							name: "Инвентаризационная опись смотрового устройства",
 							id: 10,
-							type: 'item',
+							type: "item",
 						}						
 					]
 				}
 			]				
 		},
 		{
-			name: 'Группы документов',
+			name: "Группы документов",
 			id: 11,
-			type: 'group'
+			type: "group"
 		}
 	  ],
   "profile": {
